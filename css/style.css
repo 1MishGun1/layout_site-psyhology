@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-sreen-img img {
+  height: 100vh;
+}
+
+.main-screen {
+  display: flex;
+}
+
+.main-sign {
+  display: flex;
+  gap: 30px;
+}
+
+.main-screen-button {
+  width: 256px;
+  height: 70px;
+  border-radius: 20px;
+  color: #7c655a;
+  background: white;
+  border: 1px solid #7c655a;
+  font-size: 24px;
+}
+
+.main-screen-button input {
+  background-color: #fff;
+  border-radius: 20px;
+}

@@ -37,6 +37,7 @@ body {
 .main-title {
   font-size: 64px;
   background-color: #f1d8cc;
+  font-family: PT-Serif-Regular;
   padding: 37px 0;
 }
 
@@ -53,10 +54,12 @@ body {
   font-size: 28px;
   max-width: 494px;
   margin-top: 120px;
+  font-family: PT-Serif-Regular;
 }
 
 .main-sign {
   display: flex;
+  align-items: center;
   gap: 30px;
   margin-top: 120px;
 }

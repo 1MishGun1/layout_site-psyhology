@@ -233,7 +233,7 @@ body {
 }
 
 .input-name,
-.input-phote,
+.input-phone,
 .input-message {
   border: none;
   border-bottom: 1px solid black;
@@ -254,7 +254,7 @@ body {
 }
 
 .input-name,
-.input-phote,
+.input-phone,
 .input-message input {
   margin-bottom: 92px;
 }

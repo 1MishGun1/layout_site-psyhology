@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Open-Sans-Regular';
+}
+
 .container {
   width: calc(100% - 280px);
   margin: 0 auto;
@@ -100,4 +104,50 @@
 
 .main-screen-img img {
   height: 100vh;
+}
+
+.biography {
+  margin-top: 250px;
+}
+
+.biography-title,
+.certificates-title {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.biography-discription {
+  max-width: 881px;
+}
+
+.biography-discription p {
+  padding-bottom: 16px;
+}
+
+.certificates {
+  margin-top: 250px;
+}
+
+footer {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-networks,
+.footer-year {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-networks {
+  gap: 18px;
+}
+
+.footer-year {
+  gap: 5px;
 }

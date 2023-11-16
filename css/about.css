@@ -4,10 +4,8 @@
 }
 
 .container {
-  display: flex;
   width: calc(100% - 280px);
   margin: 0 auto;
-  justify-content: space-between;
 }
 
 .header-navigation {
@@ -15,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .burger-menu {
@@ -45,4 +43,61 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.main-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen-left {
+  background-color: #7c655a;
+  width: 100%;
+}
+
+.about-title {
+  font-family: PT-Serif-Regular;
+  font-size: 64px;
+  color: white;
+  margin-top: 170px;
+  margin-bottom: 90px;
+}
+
+.about-education,
+.about-qualification,
+.about-work,
+.about-format {
+  font-size: 28px;
+  max-width: 682px;
+  color: white;
+  margin-bottom: 40px;
+  font-family: Open-Sans-Light;
+}
+
+.about-education,
+.about-qualification,
+.about-work,
+.about-format span {
+  font-weight: 600;
+}
+
+.main-sign {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 120px;
+}
+
+.main-screen-button {
+  width: 256px;
+  height: 70px;
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  font-size: 24px;
+}
+
+.main-screen-img img {
+  height: 100vh;
 }

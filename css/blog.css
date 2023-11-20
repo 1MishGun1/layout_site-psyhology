@@ -1,0 +1,171 @@
+@import url(fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open-Sans-Regular';
+}
+
+.container {
+  width: calc(100% - 280px);
+  margin: 0 auto;
+}
+
+.header-navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.burger-menu {
+  position: relative;
+  width: 40px;
+}
+
+.burger-menu span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.burger-menu span:nth-child(2) {
+  top: calc(50% - 11px);
+}
+
+.burger-menu span:nth-child(3) {
+  top: calc(50% + 11px);
+}
+
+.social-networks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-screen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen-left {
+  background-color: #756761;
+  width: 100%;
+}
+
+.blog-title {
+  display: flex;
+  align-items: center;
+  font-family: PT-Serif-Regular;
+  font-size: 64px;
+  color: white;
+  margin-top: 380px;
+}
+
+.main-sign {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 120px;
+}
+
+.main-screen-button {
+  width: 256px;
+  height: 70px;
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  font-size: 24px;
+}
+
+.posts {
+  margin-top: 250px;
+}
+
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.posts-title {
+  font-size: 40px;
+}
+
+.posts-items {
+  display: grid;
+  grid-template-columns: repeat(3, 553px);
+  gap: 22px;
+  justify-content: space-between;
+}
+
+.posts-item {
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.posts-item-img img {
+  border-radius: 15px 15px 0 0;
+  width: 553px;
+  padding-bottom: 35px;
+}
+
+.posts-item-title,
+.posts-item-discription {
+  padding-left: 25px;
+}
+
+.posts-item-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.posts-item-discription {
+  font-size: 20px;
+  width: 485px;
+  font-weight: 400;
+  margin-bottom: 63px;
+}
+
+footer {
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-networks,
+.footer-year {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-networks {
+  gap: 18px;
+}
+
+.footer-year {
+  gap: 5px;
+}

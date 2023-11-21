@@ -113,6 +113,28 @@ body {
   height: 100vh;
 }
 
+/* .menu {
+  display: none;
+}
+
+.menu.active {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 10px 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+} */
+
 .contacts {
   margin: 250px 0;
 }

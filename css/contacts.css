@@ -141,16 +141,14 @@ body {
 }
 
 .input-name,
-.input-phone {
+.input-phone,
+.input-message {
   height: 50px;
 }
 
-.input-name {
+.input-name,
+.input-phone {
   margin-bottom: 100px;
-}
-
-.input-message {
-  height: 200px;
 }
 
 .contact-sending {

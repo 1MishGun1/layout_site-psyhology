@@ -65,12 +65,14 @@ body {
   width: 100%;
 }
 
-.about-title {
+.work-title h1 {
   font-family: PT-Serif-Regular;
   font-size: 64px;
   color: white;
-  margin-top: 170px;
-  margin-bottom: 90px;
+}
+
+.directions-title {
+  margin-top: 270px;
 }
 
 .main-sign {

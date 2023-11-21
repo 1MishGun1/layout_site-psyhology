@@ -56,8 +56,12 @@ body {
   justify-content: space-between;
 }
 
+.main-screen {
+  height: 100vh;
+}
+
 .main-screen-left {
-  background-color: #7c655a;
+  background-color: #82807a;
   width: 100%;
 }
 

@@ -64,11 +64,16 @@ body {
 .main-screen {
   display: flex;
   justify-content: space-between;
+  height: 100vh;
 }
 
 .main-screen-left {
   background-color: #756761;
   width: 100%;
+}
+
+.main-screen-img img {
+  height: 100vh;
 }
 
 .blog-title {

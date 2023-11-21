@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -94,7 +94,7 @@ body {
 .main-sign {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 53px;
   margin-top: 120px;
 }
 
@@ -106,6 +106,7 @@ body {
   background: transparent;
   border: 1px solid #1f1f1f;
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 .main-screen-img img {
@@ -123,7 +124,7 @@ body {
 }
 
 .contacts-form {
-  width: 750px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -144,11 +145,24 @@ body {
 .input-phone,
 .input-message {
   height: 50px;
+  transition: height 0.3s;
 }
 
 .input-name,
 .input-phone {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+}
+
+.input-name:focus,
+.input-phone:focus {
+  border-bottom: 1px solid blue;
+  height: 70px;
+}
+
+.input-message:focus {
+  height: 200px;
+  border-bottom: 1px solid blue;
+  padding-bottom: 30px;
 }
 
 .contact-sending {

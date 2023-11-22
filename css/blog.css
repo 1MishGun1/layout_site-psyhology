@@ -15,6 +15,11 @@ h6 {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 body {
   font-family: 'Open-Sans-Regular';
 }
@@ -126,6 +131,11 @@ body {
 .posts-item {
   border: 1px solid black;
   border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.posts-item:hover {
+  transform: scale(1.05);
 }
 
 .posts-item-img img {

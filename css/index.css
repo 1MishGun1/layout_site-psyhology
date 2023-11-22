@@ -1,6 +1,13 @@
+@import url(fonts.css);
+
 * {
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -170,20 +177,39 @@ body {
 }
 
 .blog-items {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 531px);
   justify-content: space-between;
 }
 
 .blog-item {
   border: 1px solid black;
   border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.blog-item:hover {
+  transform: scale(1.05);
+}
+
+.blog-item-img {
+  margin-bottom: 35px;
 }
 
 .blog-item-img img {
   width: 531px;
-  height: 234px;
+  height: 270px;
   border-radius: 20px 20px 0 0;
-  padding-bottom: 35px;
+}
+
+.blog-item-title,
+.blog-item-preview {
+  font-weight: 400;
+  padding-left: 15px;
+}
+
+.blog-item-title {
+  font-size: 32px;
 }
 
 .blog-item-preview {

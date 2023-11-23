@@ -111,6 +111,11 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 40px;
+  transition: transform 0.3s;
+}
+
+.work-item:hover {
+  transform: scale(1.05);
 }
 
 .work-item-img {
@@ -143,6 +148,11 @@ body {
 .methods-item {
   border: 1px solid black;
   border-radius: 20px;
+  transition: transform 0.3s;
+}
+
+.methods-item:hover {
+  transform: scale(1.05);
 }
 
 .methods-item-img {

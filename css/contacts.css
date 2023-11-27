@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Open-Sans-Regular";
+  font-family: 'Open-Sans-Regular';
 }
 
 .container {
@@ -209,6 +209,7 @@ footer {
 .footer .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-social-networks,

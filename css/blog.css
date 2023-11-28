@@ -107,6 +107,12 @@ body {
   font-size: 24px;
 }
 
+.main-screen-button:hover {
+  color: #756761;
+  background-color: white;
+  transition: 0.3s;
+}
+
 .posts {
   margin-top: 250px;
 }
@@ -180,6 +186,24 @@ footer {
 
 .footer-social-networks {
   gap: 18px;
+}
+
+.social-tg {
+  display: inline-block;
+  background-image: url(../img/tg.png);
+  background-size: cover;
+  background-position: center center;
+  width: 45px;
+  height: 45px;
+}
+
+.soocial-watsapp {
+  display: inline-block;
+  background-image: url(../img/whatsapp.png);
+  background-size: cover;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
 }
 
 .footer-year {

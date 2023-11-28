@@ -128,7 +128,6 @@ body {
 
 .biography-discription {
   display: flex;
-  /* gap: 70px; */
   justify-content: space-between;
 }
 

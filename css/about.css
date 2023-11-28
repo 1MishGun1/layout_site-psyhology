@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -128,7 +128,8 @@ body {
 
 .biography-discription {
   display: flex;
-  gap: 70px;
+  /* gap: 70px; */
+  justify-content: space-between;
 }
 
 .biography-discription p {
@@ -137,6 +138,10 @@ body {
   font-size: 18px;
   text-align: justify;
   text-indent: 25px;
+}
+
+.line {
+  border-left: 1px solid black;
 }
 
 .certificates {

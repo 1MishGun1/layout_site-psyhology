@@ -109,6 +109,13 @@ body {
   text-transform: uppercase;
 }
 
+.main-screen-button:hover {
+  background-color: white;
+  border: 1px solid white;
+  color: #1f1f1f;
+  transition: 0.3s;
+}
+
 .main-screen-img img {
   height: 100vh;
 }
@@ -157,7 +164,7 @@ body {
 
 .contacts-input input {
   border: none;
-  border-bottom: 1px solid #565656;
+  border-bottom: 1px solid #7c655a;
   font-size: 28px;
   outline: none;
   padding-bottom: 10px;
@@ -194,11 +201,18 @@ body {
 }
 
 .contact-button {
-  border: 1px solid #1f1f1f;
+  border: 1px solid #7c655a;
   width: 330px;
   border-radius: 20px;
   font-size: 26px;
   background-color: white;
+  color: #7c655a;
+}
+
+.contact-button:hover {
+  background-color: #7c655a;
+  color: white;
+  transition: 0.3s;
 }
 
 footer {
@@ -220,6 +234,24 @@ footer {
 
 .footer-social-networks {
   gap: 18px;
+}
+
+.social-tg {
+  display: inline-block;
+  background-image: url(../img/tg.png);
+  background-size: cover;
+  background-position: center center;
+  width: 45px;
+  height: 45px;
+}
+
+.soocial-watsapp {
+  display: inline-block;
+  background-image: url(../img/whatsapp.png);
+  background-size: cover;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
 }
 
 .footer-year {

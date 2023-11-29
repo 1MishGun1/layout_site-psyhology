@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Open-Sans-Regular";
+  font-family: 'Open-Sans-Regular';
 }
 
 .container {
@@ -137,6 +137,7 @@ body {
   font-size: 18px;
   text-align: justify;
   text-indent: 25px;
+  font-family: Open-Sans-Light;
 }
 
 .line {

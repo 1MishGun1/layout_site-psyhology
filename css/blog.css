@@ -110,7 +110,7 @@ body {
 .main-screen-button:hover {
   color: #756761;
   background-color: white;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .posts {
@@ -137,7 +137,7 @@ body {
 .posts-item {
   border: 1px solid black;
   border-radius: 15px;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .posts-item:hover {

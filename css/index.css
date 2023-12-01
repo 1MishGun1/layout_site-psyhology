@@ -91,7 +91,7 @@ body {
 .write-me-button:hover {
   background-color: #7c655a;
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .about {
@@ -101,25 +101,43 @@ body {
 .about-title,
 .methods-title,
 .work-title,
-.blog-title {
+.blog-title,
+.contact-title {
   font-size: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   font-weight: 400;
+  width: fit-content;
+  border-bottom: 1px solid #7c655a;
+  padding-right: 90px;
+  margin-bottom: 50px;
 }
 
 .about-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.about-text {
+.about-discription {
   max-width: 672px;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: Open-Sans-Light;
+  margin-bottom: 20px;
 }
 
-.about-text p {
+.about-discription p {
   padding-bottom: 20px;
-  line-height: 120.182%;
+  line-height: 130.182%;
+}
+
+.about-discription-link {
+  color: #7c655a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about-discription-link:hover {
+  border-bottom: 1px solid #7c655a;
 }
 
 .about-img img {
@@ -142,7 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
   padding-bottom: 40px;
 }
 
@@ -173,7 +191,7 @@ body {
 .methods-item {
   border: 1px solid black;
   border-radius: 20px;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .methods-item:hover {
@@ -204,7 +222,7 @@ body {
 .blog-item {
   border: 1px solid black;
   border-radius: 20px;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
 }
 
 .blog-item:hover {
@@ -290,7 +308,7 @@ body {
   margin-bottom: 15px;
   font-size: 28px;
   outline: none;
-  transition: height 0.3s;
+  transition: height 0.5s;
 }
 
 .input-name:focus,
@@ -319,6 +337,7 @@ body {
 .input-phone,
 .input-message input {
   margin-bottom: 92px;
+  padding-bottom: 10px;
 }
 
 footer {

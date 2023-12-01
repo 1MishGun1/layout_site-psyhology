@@ -113,7 +113,7 @@ body {
   background-color: white;
   border: 1px solid white;
   color: #1f1f1f;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .main-screen-img img {
@@ -174,7 +174,7 @@ body {
 .input-phone,
 .input-message {
   height: 50px;
-  transition: height 0.3s;
+  transition: height 0.5s;
 }
 
 .input-name,
@@ -212,7 +212,7 @@ body {
 .contact-button:hover {
   background-color: #7c655a;
   color: white;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 footer {

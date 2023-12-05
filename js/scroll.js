@@ -1,7 +1,7 @@
 let scroll = document.querySelector('.main-screen-button');
 scroll.addEventListener('click', function (e) {
   e.preventDefault();
-  let target = document.getElementById('contacts');
+  let target = document.getElementById('scrollDown');
   let targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
   let startPosition = window.pageYOffset;
   let distance = targetPosition - startPosition;

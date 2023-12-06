@@ -8,10 +8,29 @@
   </head>
   <body>
     <section class="main-screen">
-      <div class="main-sreen-img">
+      <div class="main-sreen-left">
         <img src="img/Img_main.png" alt="main-screen" />
       </div>
-      <div class="main-screen-container">
+      <div class="main-screen-right">
+        <div class="burger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="burger-menu-nav">
+          <a href="index.html" class="logo logo-hidden">
+            <img src="img/logo.svg" alt="Татьяна Сулимова" />
+          </a>
+          <a href="index.html">Главная</a>
+          <a href="pages/about.html">Обо мне</a>
+          <a href="pages/directionsMethods.html">Методы работы</a>
+          <a href="pages/blog.html">Мой блог</a>
+          <a href="pages/contact.html">Контакты</a>
+          <div class="social-networks">
+            <a href="https://t.me/clear_psychology" class="social-tg"></a>
+            <a href="https://wa.me/89819941681" class="soocial-watsapp"></a>
+          </div>
+        </nav>
         <div class="main-title">
           <div class="psyhology">ПСИХОЛОГ</div>
           <div class="name">ТАТЬЯНА</div>
@@ -24,7 +43,7 @@
           <div class="main-line-left">
             <img src="img/Left.png" alt="left" />
           </div>
-          <input type="button" class="main-screen-button" value="ЗАПИСАТЬСЯ" />
+          <a href="#write" class="main-screen-button">ЗАПИСАТЬСЯ</a>
           <div class="main-line-right">
             <img src="img/Right.png" alt="right" />
           </div>
@@ -32,7 +51,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about-content">
           <div class="about-text">
@@ -75,7 +94,7 @@
       </div>
     </section>
 
-    <section class="work">
+    <section class="work" id="work">
       <div class="container">
         <h2 class="work-title">НАПРАВЛЕНИЯ РАБОТЫ</h2>
         <div class="work-items">
@@ -131,7 +150,7 @@
       </div>
     </section>
 
-    <section class="methods">
+    <section class="methods" id="methods">
       <div class="container">
         <h2 class="methods-title">МЕТОДЫ РАБОТЫ</h2>
         <div class="methods-items">
@@ -161,7 +180,7 @@
       </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container">
         <h2 class="blog-title">БЛОГ</h2>
         <div class="blog-items">
@@ -180,6 +199,7 @@
             <div class="blog-item-img">
               <img src="img/post-img.jpg" alt="post2" />
             </div>
+            <p class="blog-item-heshtag">#статья</p>
             <h3 class="blog-item-title">ПОСТ ПЕРВЫЙ</h3>
             <h5 class="blog-item-preview">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -190,6 +210,7 @@
             <div class="blog-item-img">
               <img src="img/post-img.jpg" alt="post3" />
             </div>
+            <p class="blog-item-heshtag">#статья</p>
             <h3 class="blog-item-title">ПОСТ ПЕРВЫЙ</h3>
             <h5 class="blog-item-preview">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -201,7 +222,7 @@
           <div class="blog-line-left">
             <img src="img/Left.png" alt="left" />
           </div>
-          <input type="button" class="blog-button" value="ВСЕ ПОСТЫ" />
+          <a href="pages/blog.html" class="blog-button">все посты</a>
           <div class="blog-line-right">
             <img src="img/Right.png" alt="right" />
           </div>
@@ -209,7 +230,7 @@
       </div>
     </section>
 
-    <section class="write-me">
+    <section class="write-me" id="scrollDown">
       <div class="container">
         <h2 class="contact-title">НАПИШИТЕ МНЕ</h2>
         <div class="write-me-content">
@@ -254,5 +275,7 @@
         <p class="footer-record">© 2023 Татьяна Сулимова</p>
       </div>
     </footer>
+    <script src="js/scroll.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>

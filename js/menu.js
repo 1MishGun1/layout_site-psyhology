@@ -1,8 +1,5 @@
-document.addEventListener('DOMContentLoaded', function () {
-  let burgerMenu = document.querySelector('.burger-menu');
-  let burgerMenuOverlay = document.querySelector('.burger-menu-nav');
-
-  burgerMenu.addEventListener('click', function () {
-    burgerMenuOverlay.classList.toggle('show');
-  });
+let menu = document.querySelector('.burger-menu');
+menu.addEventListener('click', function () {
+  this.classList.toggle('active');
+  document.querySelector('.burger-menu-nav').classList.toggle('open');
 });

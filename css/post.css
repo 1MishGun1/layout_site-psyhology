@@ -82,13 +82,13 @@ body {
   display: none;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
-  height: 50vh;
+  height: 100vh;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  gap: 30px;
   z-index: 1;
   overflow-y: auto;
   background-color: white;
@@ -96,8 +96,20 @@ body {
   animation: burgerAnimation 0.5s;
 }
 
+.main-burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
 .logo-hidden {
   margin-top: 50px;
+}
+
+.networks-hidden {
+  margin-bottom: 50px;
 }
 
 .open {

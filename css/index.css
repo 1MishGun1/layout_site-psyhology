@@ -99,8 +99,9 @@ body {
   display: none;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
-  height: 50vh;
+  height: 100vh;
   top: 0;
   bottom: 0;
   left: 0;
@@ -115,6 +116,17 @@ body {
 
 .logo-hidden {
   margin-top: 50px;
+}
+
+.networks-hidden {
+  margin-bottom: 50px;
+}
+
+.main-burger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .open {
@@ -404,7 +416,6 @@ body {
 
 .write-me-img img {
   width: 810px;
-  height: 500px;
   border-radius: 20px;
 }
 

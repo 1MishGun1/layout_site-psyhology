@@ -25,6 +25,9 @@ body {
 .burger-menu {
   position: relative;
   width: 40px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 2;
 }
 
 .burger-menu span {
@@ -43,6 +46,70 @@ body {
 
 .burger-menu span:nth-child(3) {
   top: calc(50% + 11px);
+}
+
+.burger-menu.active span {
+  transform: scale(0);
+}
+
+.burger-menu.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 50%;
+  left: 5px;
+}
+
+.burger-menu.active span:nth-child(2) {
+  width: 0;
+  color: white;
+}
+
+.burger-menu.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 50%;
+  left: 5px;
+  color: white;
+}
+
+.burger-menu-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 50vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  gap: 30px;
+  z-index: 1;
+  overflow-y: auto;
+  background-color: white;
+  color: black;
+  animation: burgerAnimation 0.5s;
+}
+
+.logo-hidden {
+  margin-top: 50px;
+}
+
+.open {
+  display: flex !important;
+}
+
+@keyframes burgerAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.burger-menu-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .social-networks {
@@ -90,6 +157,10 @@ body {
   background: transparent;
   border: 1px solid white;
   font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .main-screen-button:hover {
@@ -135,11 +206,15 @@ body {
   text-align: center;
 }
 
-.work-title,
-.methods-title {
+.title-work,
+.title-methods {
   font-size: 40px;
-  font-family: Open-Sans-Regular;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  width: fit-content;
+  border-bottom: 1px solid #7c655a;
+  padding-right: 90px;
+  margin-bottom: 40px;
 }
 
 .methods {

@@ -16,6 +16,20 @@
             <span></span>
             <span></span>
           </div>
+          <nav class="burger-menu-nav">
+            <a href="../index.html" class="logo logo-hidden">
+              <img src="../img/logo.svg" alt="Татьяна Сулимова" />
+            </a>
+            <a href="../index.html">Главная</a>
+            <a href="../pages/about.html">Обо мне</a>
+            <a href="../pages/directionsMethods.html">Методы работы</a>
+            <a href="../pages/blog.html">Мой блог</a>
+            <a href="../pages/contact.html">Контакты</a>
+            <div class="social-networks">
+              <a href="https://t.me/clear_psychology" class="social-tg"></a>
+              <a href="https://wa.me/89819941681" class="soocial-watsapp"></a>
+            </div>
+          </nav>
           <a href="../index.html" class="logo">
             <img src="../img/logo.svg" alt="Татьяна Сулимова" />
           </a>
@@ -32,15 +46,14 @@
         <div class="container">
           <h1 class="about-title">ОБО МНЕ</h1>
           <div class="about-education">
-            <span>Образование:</span> первое, второе , третье и так далее,
-            первое, второе , третье и так далее
+            <span>Образование:</span> АНО ВО "ВЕИП", Алматинский университет
+            непрерывного образования
           </div>
           <div class="about-qualification">
-            <span>Повышение квалификации:</span> первое, второе, третье и тд
+            <span>Повышение квалификации:</span> ООО "Институт инновационных
+            технологий", ГБ НОУ "Дворец учащиеся молодежи Санкт-Петербурга"
           </div>
-          <div class="about-work">
-            <span>Опыт работы:</span> много годиков хех
-          </div>
+          <div class="about-work"><span>Опыт работы:</span> более 16 лет</div>
           <div class="about-format">
             <span>Формат работы:</span> очное и офлайн
           </div>
@@ -48,11 +61,7 @@
             <div class="main-line-left">
               <img src="../img/Left-white.png" alt="left" />
             </div>
-            <input
-              type="button"
-              class="main-screen-button"
-              value="ЗАПИСАТЬСЯ"
-            />
+            <a href="#biography" class="main-screen-button">ЗАПИСАТЬСЯ</a>
             <div class="main-line-right">
               <img src="../img/Right-white.png" alt="right" />
             </div>
@@ -66,7 +75,7 @@
       </div>
     </section>
 
-    <section class="biography">
+    <section class="biography" id="scrollDown">
       <div class="container">
         <div class="biography-title">БИОГРАФИЯ</div>
         <div class="biography-discription">
@@ -314,5 +323,7 @@
         <p class="footer-record">© 2023 Татьяна Сулимова</p>
       </div>
     </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/scroll.js"></script>
   </body>
 </html>

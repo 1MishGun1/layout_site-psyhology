@@ -88,6 +88,7 @@ body {
 .burger-menu-nav {
   display: none;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   height: 100vh;
@@ -101,6 +102,17 @@ body {
   background-color: white;
   color: black;
   animation: burgerAnimation 0.5s;
+}
+
+.main-burger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.networks-hidden {
+  margin-bottom: 50px;
 }
 
 .logo-hidden {
@@ -154,7 +166,7 @@ body {
   font-family: PT-Serif-Regular;
   font-size: 64px;
   color: white;
-  margin-top: 380px;
+  margin-top: 300px;
 }
 
 .main-sign {
@@ -198,15 +210,20 @@ body {
   padding-bottom: 10px;
   font-weight: 400;
   width: fit-content;
-  border-bottom: 1px solid #7c655a;
+  border-bottom: 1px solid #1f1f1f;
   padding-right: 90px;
 }
 
 .posts-items {
+  overflow-x: auto;
   display: grid;
-  grid-template-columns: repeat(3, 553px);
-  gap: 22px;
+  grid-template-columns: repeat(3, 480px);
+  gap: 18px;
   justify-content: space-between;
+  overflow: hidden;
+  padding: 12px 0;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .posts-item {
@@ -221,7 +238,7 @@ body {
 
 .posts-item-img img {
   border-radius: 15px 15px 0 0;
-  width: 553px;
+  width: 480px;
   padding-bottom: 20px;
 }
 
@@ -248,7 +265,7 @@ body {
 
 .posts-item-discription {
   font-size: 20px;
-  width: 485px;
+  width: 455px;
   font-weight: 400;
   margin-bottom: 50px;
 }

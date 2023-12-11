@@ -146,15 +146,15 @@ body {
   font-family: PT-Serif-Regular;
   font-size: 64px;
   color: white;
-  margin-top: 170px;
-  margin-bottom: 90px;
+  margin-top: 110px;
+  margin-bottom: 50px;
 }
 
 .about-education,
 .about-qualification,
 .about-work,
 .about-format {
-  font-size: 28px;
+  font-size: 26px;
   max-width: 682px;
   color: white;
   margin-bottom: 40px;
@@ -172,7 +172,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .main-screen-button {
@@ -208,7 +208,7 @@ body {
   padding-bottom: 10px;
   font-weight: 400;
   width: fit-content;
-  border-bottom: 1px solid #7c655a;
+  border-bottom: 1px solid #1f1f1f;
   padding-right: 90px;
   margin-bottom: 40px;
   text-transform: uppercase;
@@ -217,6 +217,7 @@ body {
 .biography-discription {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .biography-discription p {
@@ -262,7 +263,7 @@ body {
 }
 
 .cetrtificates-img img {
-  height: 350px;
+  height: 320px;
 }
 
 .certificates-text {

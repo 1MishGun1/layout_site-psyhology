@@ -146,12 +146,12 @@ body {
 
 .work-title h1 {
   font-family: PT-Serif-Regular;
-  font-size: 64px;
+  font-size: 60px;
   color: white;
 }
 
 .directions-title {
-  margin-top: 270px;
+  margin-top: 250px;
 }
 
 .main-sign {
@@ -208,14 +208,19 @@ body {
 }
 
 .work-item-img {
-  width: 150px;
+  width: 130px;
   align-items: center;
 }
 
 .work-item-text {
-  max-width: 321px;
-  font-size: 24px;
+  max-width: 300px;
+  font-size: 20px;
   text-align: center;
+}
+
+.difficulties,
+.growth {
+  width: 200px;
 }
 
 .title-work,
@@ -224,7 +229,7 @@ body {
   padding-bottom: 10px;
   font-weight: 400;
   width: fit-content;
-  border-bottom: 1px solid #7c655a;
+  border-bottom: 1px solid #1f1f1f;
   padding-right: 90px;
   margin-bottom: 40px;
 }
@@ -239,6 +244,9 @@ body {
 }
 
 .methods-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid black;
   border-radius: 20px;
   transition: transform 0.5s;
@@ -249,14 +257,27 @@ body {
 }
 
 .methods-item-img {
-  width: 120px;
-  padding: 60px 210px;
+  width: 110px;
+  padding: 60px 190px;
 }
 
 .methods-item-name {
-  font-size: 24px;
-  text-align: center;
   padding-bottom: 55px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.geshtalt {
+  width: 100px;
+}
+
+.terapy {
+  width: 310px;
+}
+
+.programming {
+  width: 300px;
+  align-items: center;
 }
 
 footer {
@@ -277,7 +298,7 @@ footer {
 }
 
 .footer-social-networks {
-  gap: 18px;
+  gap: 10px;
 }
 
 .social-tg {

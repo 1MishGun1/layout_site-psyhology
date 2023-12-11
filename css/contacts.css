@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
 body {
   font-family: 'Open-Sans-Regular';
 }
@@ -154,16 +159,26 @@ body {
 
 .main-screen-exposure {
   display: flex;
-  gap: 116px;
+  align-items: baseline;
+  gap: 70px;
 }
 
 .contact-tg,
-.contact-phone {
+.contact-email {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 28px;
+  font-size: 20px;
   font-family: PT-Serif-Regular;
+}
+
+.contact-email {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.contact-email-img img {
+  width: 80px;
 }
 
 .contact-tg-img img {
@@ -202,28 +217,6 @@ body {
   height: 100vh;
 }
 
-/* .menu {
-  display: none;
-}
-
-.menu.active {
-  display: block;
-}
-
-.menu ul {
-  list-style: none;
-  padding: 0;
-}
-
-.menu ul li {
-  margin: 10px 0;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: black;
-} */
-
 .contacts {
   margin: 250px 0;
 }
@@ -232,7 +225,7 @@ body {
   font-size: 40px;
   padding-bottom: 10px;
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #1f1f1f;
   width: 450px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -241,6 +234,7 @@ body {
 .contacts-form {
   width: 800px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .contacts-input {
@@ -250,7 +244,7 @@ body {
 
 .contacts-input input {
   border: none;
-  border-bottom: 1px solid #7c655a;
+  border-bottom: 1px solid #1f1f1f;
   font-size: 28px;
   outline: none;
   padding-bottom: 10px;
@@ -282,13 +276,15 @@ body {
 
 .contact-sending {
   display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
+  gap: 50px;
+  padding-top: 100px;
+  width: fit-content;
+  margin: auto;
 }
 
 .contact-button {
   border: 1px solid #7c655a;
-  width: 330px;
+  width: 270px;
   border-radius: 20px;
   font-size: 26px;
   background-color: white;

@@ -436,7 +436,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .container {
     width: calc(100% - 20px);
   }

@@ -427,6 +427,10 @@ footer {
     width: calc(100% - 80px);
   }
 
+  .logo img {
+    width: 230px;
+  }
+
   .post-img img {
     width: 410px;
   }
@@ -440,6 +444,10 @@ footer {
 @media screen and (max-width: 470px) {
   .container {
     width: calc(100% - 50px);
+  }
+
+  .logo img {
+    width: 200px;
   }
 
   .post-img img {
@@ -514,6 +522,28 @@ footer {
     justify-content: center;
     flex-direction: column;
     gap: 7px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .post-img img {
+    width: 340px;
+  }
+
+  .post-text-all {
+    width: 340px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .post-img img {
+    width: 340px;
+  }
+
+  .post-text-all {
+    width: 340px;
+    margin: 0 auto;
   }
 }
 

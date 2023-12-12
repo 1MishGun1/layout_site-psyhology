@@ -508,6 +508,13 @@ footer {
   footer {
     margin-top: 70px;
   }
+
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
 }
 
 @media screen and (max-width: 330px) {

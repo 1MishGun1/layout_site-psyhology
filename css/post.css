@@ -461,6 +461,19 @@ footer {
     width: 170px;
   }
 
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .burger-menu span:nth-child(2) {
+    top: calc(50% - 8px);
+  }
+
+  .burger-menu span:nth-child(3) {
+    top: calc(50% + 8px);
+  }
+
   .bread-crumbs {
     align-items: center;
     gap: 3px;

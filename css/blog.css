@@ -481,14 +481,20 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+  .main-screen-left {
+    display: flex;
+    align-items: center;
+    height: 80%;
+  }
+
   .posts-items {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
+    grid-template-columns: repeat(2, 330px);
     gap: 12px;
   }
 
   .posts-item-img img {
-    width: 300px;
+    width: 330px;
   }
 
   .posts-item-title {
@@ -624,6 +630,12 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
+  .main-screen-left {
+    display: flex;
+    align-items: center;
+    height: 70%;
+  }
+
   .container {
     width: calc(100% - 40px);
   }

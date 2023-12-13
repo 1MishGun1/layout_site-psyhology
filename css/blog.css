@@ -415,6 +415,7 @@ footer {
   .container {
     width: calc(100% - 170px);
   }
+
   .main-screen {
     height: 1000px;
   }
@@ -446,7 +447,7 @@ footer {
   }
 
   .posts {
-    margin-top: 180px;
+    margin-top: 100px;
   }
 
   .posts-items {
@@ -481,6 +482,10 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+  .main-screen {
+    height: 650px;
+  }
+
   .main-screen-left {
     display: flex;
     align-items: center;
@@ -584,10 +589,6 @@ footer {
     margin-bottom: 70px;
   }
 
-  .posts {
-    margin-top: 100px;
-  }
-
   .posts-items {
     display: grid;
     grid-template-columns: repeat(1, 100%);
@@ -637,7 +638,7 @@ footer {
   .main-screen-left {
     display: flex;
     align-items: center;
-    height: 70%;
+    height: 90%;
   }
 
   .container {
@@ -650,6 +651,10 @@ footer {
 
   .blog-title {
     text-align: center;
+  }
+
+  .posts-header {
+    margin-left: 20px;
   }
 
   .posts {
@@ -677,5 +682,9 @@ footer {
 
   .burger-menu span:nth-child(3) {
     top: calc(50% + 8px);
+  }
+
+  .posts-header {
+    margin-left: 20px;
   }
 }

@@ -319,7 +319,7 @@ footer {
   }
 
   .logo.logo-hidden {
-    margin-top: 70px;
+    margin-top: 40px;
   }
 
   .burger-menu-nav a {
@@ -345,6 +345,7 @@ footer {
 
   .social-networks.networks-hidden {
     display: block;
+    margin-bottom: 70px;
   }
 
   .bread-crumbs {

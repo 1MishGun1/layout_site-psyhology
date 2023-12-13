@@ -630,6 +630,10 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
+  .main-screen {
+    height: 700px;
+  }
+
   .main-screen-left {
     display: flex;
     align-items: center;
@@ -646,6 +650,10 @@ footer {
 
   .blog-title {
     text-align: center;
+  }
+
+  .posts {
+    margin-top: 0px;
   }
 }
 

@@ -339,3 +339,21 @@ footer {
 .footer-year {
   gap: 5px;
 }
+
+@media screen and (max-width: 1790px) {
+  .contact-email-img img {
+    width: 70px;
+  }
+
+  .contact-tg-img img {
+    width: 60px;
+  }
+
+  .contact-tg-link {
+    text-align: center;
+  }
+
+  .main-sign {
+    gap: 30px;
+  }
+}

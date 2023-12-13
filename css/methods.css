@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -321,4 +321,58 @@ footer {
 
 .footer-year {
   gap: 5px;
+}
+
+@media screen and (max-width: 1780px) {
+  .methods-item-img {
+    padding: 60px 160px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .methods-item-img {
+    padding: 60px 130px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .main-sign {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .main-line-right,
+  .main-line-left {
+    display: none;
+  }
+
+  .directions-title,
+  .methods-title {
+    text-align: center;
+  }
+
+  .main-sign {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1414px) {
+  .methods-item-img {
+    padding: 40px 100px;
+  }
+
+  .methods-item-name {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .terapy {
+    width: 250px;
+  }
+
+  .programming {
+    width: 300px;
+  }
 }

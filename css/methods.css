@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Open-Sans-Regular";
+  font-family: 'Open-Sans-Regular';
 }
 
 .container {
@@ -329,6 +329,13 @@ footer {
   }
 }
 
+@media screen and (max-width: 1720px) {
+  .main-line-right,
+  .main-line-left {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1600px) {
   .methods-item-img {
     padding: 60px 130px;
@@ -342,11 +349,6 @@ footer {
 }
 
 @media screen and (max-width: 1520px) {
-  .main-line-right,
-  .main-line-left {
-    display: none;
-  }
-
   .directions-title,
   .methods-title {
     text-align: center;
@@ -359,6 +361,21 @@ footer {
 }
 
 @media screen and (max-width: 1414px) {
+  .work-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .work-title {
+    padding: 0 20px;
+  }
+
+  .work-title h1 {
+    font-size: 50px;
+  }
+
   .methods-item-img {
     padding: 40px 100px;
   }
@@ -374,5 +391,156 @@ footer {
 
   .programming {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .main-sign {
+    width: 100%;
+  }
+
+  .main-screen-button {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: calc(100% - 170px);
+  }
+
+  .main-screen {
+    height: 100vh;
+  }
+
+  .main-screen-img {
+    display: none;
+  }
+
+  .work-title {
+    margin-top: 120px;
+  }
+
+  .directions-title {
+    margin-top: 120px;
+  }
+
+  .work {
+    margin: 100px 0;
+  }
+
+  .title-work,
+  .title-methods {
+    font-size: 30px;
+    padding-right: 50px;
+  }
+
+  .work-items {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+  }
+
+  .methods {
+    margin: 0;
+  }
+
+  .methods-items {
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    row-gap: 15px;
+    gap: 15px;
+  }
+
+  footer {
+    margin-top: 180px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social-networks {
+    gap: 7px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .work-items {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .methods-items {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 15px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: calc(100% - 80px);
+  }
+
+  .header-navigation {
+    display: flex;
+  }
+
+  .logo {
+    order: -1;
+  }
+
+  .logo img {
+    width: 250px;
+  }
+
+  .burger-menu-nav {
+    justify-content: space-between;
+  }
+
+  .logo.logo-hidden {
+    margin-top: 40px;
+  }
+
+  .burger-menu-nav a {
+    font-size: 18px;
+  }
+
+  .main-burger-menu {
+    gap: 10px;
+  }
+
+  .burger-menu {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-networks {
+    display: none;
+  }
+
+  .logo-hidden {
+    margin-top: 50px;
+  }
+
+  .social-networks.networks-hidden {
+    display: block;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .work-title h1 {
+    font-size: 44px;
+  }
+
+  .title-work,
+  .title-methods {
+    font-size: 24px;
+    padding-right: 30px;
   }
 }

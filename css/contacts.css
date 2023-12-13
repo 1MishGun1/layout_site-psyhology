@@ -381,6 +381,10 @@ footer {
     align-items: center;
   }
 
+  .main-sign {
+    margin-top: 90px;
+  }
+
   .contact-tg {
     justify-content: center;
   }
@@ -421,7 +425,7 @@ footer {
   }
 
   .contacts {
-    margin-top: 100px;
+    margin: 100px 0;
   }
 
   .contacts-form {
@@ -444,10 +448,6 @@ footer {
 }
 
 @media screen and (max-width: 850px) {
-  /* .contacts-form {
-    width: 550px;
-  } */
-
   .contacts-input input {
     font-size: 24px;
     padding-bottom: 0;

@@ -319,7 +319,7 @@ footer {
   }
 
   .logo.logo-hidden {
-    margin-top: 43px;
+    margin-top: 70px;
   }
 
   .burger-menu-nav a {
@@ -327,7 +327,6 @@ footer {
   }
 
   .main-burger-menu {
-    justify-content: space-evenly;
     gap: 10px;
   }
 

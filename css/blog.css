@@ -638,6 +638,10 @@ footer {
 }
 
 @media screen and (max-width: 470px) {
+  .container {
+    width: calc(100% - 20px);
+  }
+
   .logo img {
     width: 200px;
   }

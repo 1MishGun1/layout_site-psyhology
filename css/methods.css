@@ -534,6 +534,9 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
+  .logo img {
+    width: 200px;
+  }
   .work-title h1 {
     font-size: 44px;
   }

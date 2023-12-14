@@ -315,3 +315,287 @@ footer {
 .footer-year {
   gap: 5px;
 }
+
+@media screen and (max-width: 1790px) {
+  .main-sign {
+    justify-content: center;
+  }
+
+  .main-line-left,
+  .main-line-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .about-title,
+  .about-education,
+  .about-qualification,
+  .about-work,
+  .about-format {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .about-title {
+    font-size: 54px;
+  }
+
+  .about-education,
+  .about-qualification,
+  .about-work,
+  .about-format {
+    font-size: 22px;
+  }
+
+  .main-sign {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .about-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .container {
+    width: calc(100% - 170px);
+  }
+
+  .main-screen {
+    height: 100vh;
+  }
+
+  .main-screen-img {
+    display: none;
+  }
+
+  .about-title {
+    margin-top: 120px;
+  }
+
+  .about-education,
+  .about-qualification,
+  .about-work,
+  .about-format {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 28px;
+  }
+
+  footer {
+    margin-top: 180px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social-networks {
+    gap: 7px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .biography-title,
+  .certificates-title {
+    font-size: 32px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .biography-discription {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .biography,
+  .certificates {
+    margin: 100px 0;
+  }
+
+  .certificates-items {
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    justify-content: center;
+  }
+
+  .certificates-item {
+    text-align: center;
+  }
+
+  .cetrtificates-img {
+    height: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .certificates-text {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: calc(100% - 80px);
+  }
+
+  .header-navigation {
+    display: flex;
+  }
+
+  .logo {
+    order: -1;
+  }
+
+  .logo img {
+    width: 250px;
+  }
+
+  .burger-menu-nav {
+    justify-content: space-between;
+  }
+
+  .logo.logo-hidden {
+    margin-top: 40px;
+  }
+
+  .burger-menu-nav a {
+    font-size: 18px;
+  }
+
+  .main-burger-menu {
+    gap: 10px;
+  }
+
+  .burger-menu {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-networks {
+    display: none;
+  }
+
+  .logo-hidden {
+    margin-top: 50px;
+  }
+
+  .social-networks.networks-hidden {
+    display: block;
+    margin-bottom: 70px;
+  }
+
+  .about-title {
+    margin-top: 80px;
+  }
+
+  .about-education,
+  .about-qualification,
+  .about-work,
+  .about-format {
+    padding-bottom: 30px;
+    font-size: 22px;
+  }
+
+  .main-sign {
+    margin-top: 10px;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
+
+  .footer .container {
+    gap: 10px;
+  }
+
+  .social-tg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .soocial-watsapp {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  .logo img {
+    width: 230px;
+  }
+
+  .biography-title,
+  .certificates-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .cetrtificates-img img {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .burger-menu span:nth-child(2) {
+    top: calc(50% - 8px);
+  }
+
+  .burger-menu span:nth-child(3) {
+    top: calc(50% + 8px);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .biography-title,
+  .certificates-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-right: 30px;
+  }
+
+  .cetrtificates-img img {
+    height: 210px;
+  }
+
+  .certificates-text {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cetrtificates-img img {
+    height: 190px;
+  }
+}

@@ -417,7 +417,7 @@ footer {
   }
 
   .main-screen {
-    height: 1000px;
+    height: 100vh;
   }
 
   .main-screen-left {
@@ -482,10 +482,6 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
-  .main-screen {
-    height: 650px;
-  }
-
   .main-screen-left {
     display: flex;
     align-items: center;
@@ -631,10 +627,6 @@ footer {
 }
 
 @media screen and (max-width: 550px) {
-  .main-screen {
-    height: 700px;
-  }
-
   .main-screen-left {
     display: flex;
     align-items: center;

@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -169,6 +169,11 @@ body {
 
 .surname {
   text-indent: 140px;
+}
+
+.full-name {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-slogan {
@@ -599,6 +604,11 @@ footer {
     padding: 0;
   }
 
+  .main-slogan {
+    margin: 0 auto;
+    padding-top: 90px;
+  }
+
   .psyhology {
     font-size: 32px;
   }
@@ -614,6 +624,10 @@ footer {
 }
 
 @media screen and (max-width: 1300px) {
+  .container {
+    width: calc(100% - 150px);
+  }
+
   .psyhology,
   .main-slogan {
     font-size: 28px;
@@ -623,29 +637,158 @@ footer {
   .surname {
     font-size: 44px;
   }
-}
 
-@media screen and (max-width: 1250px) {
   .main-screen {
     display: flex;
     flex-direction: column;
   }
 
   .main-sreen-left {
+    display: flex;
+    justify-content: center;
     position: relative;
     top: 100px;
   }
 
   .main-sreen-left img {
-    width: 100%;
-    height: 90%;
+    width: 55%;
+    height: 55%;
   }
 
   .main-screen-right {
     margin-top: 100px;
   }
 
+  .full-name {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .main-slogan {
+    padding-top: 20px;
+  }
+
+  .main-sign {
+    margin-top: 50px;
+  }
+
   .main-title {
     background-color: #fff;
   }
+
+  .about,
+  .work,
+  .methods,
+  .blog,
+  .write-me,
+  footer {
+    margin-top: 180px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-discription {
+    text-align: justify;
+    max-width: 100%;
+  }
+
+  .about-discription p {
+    padding-bottom: 10px;
+  }
+
+  .about-discription-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img {
+    padding-top: 10px;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  /* .container {
+    width: calc(100% - 150px);
+  }
+
+  .main-screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-sreen-left {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+  }
+
+  .main-sreen-left img {
+    width: 55%;
+    height: 55%;
+  }
+
+  .main-screen-right {
+    margin-top: 100px;
+  }
+
+  .full-name {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .main-slogan {
+    padding-top: 20px;
+  }
+
+  .main-sign {
+    margin-top: 50px;
+  }
+
+  .main-title {
+    background-color: #fff;
+  }
+
+  .about,
+  .work,
+  .methods,
+  .blog,
+  .write-me,
+  footer {
+    margin-top: 180px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-discription {
+    text-align: justify;
+    max-width: 100%;
+  }
+
+  .about-discription p {
+    padding-bottom: 10px;
+  }
+
+  .about-discription-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img {
+    padding-top: 10px;
+  }
+
+  .about-img img {
+    width: 100%;
+  } */
 }

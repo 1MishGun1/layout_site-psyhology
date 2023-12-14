@@ -377,7 +377,6 @@ body {
 
 .blog-item-img img {
   width: 495px;
-  /* height: 270px; */
   border-radius: 20px 20px 0 0;
 }
 
@@ -541,4 +540,112 @@ footer {
 
 .footer-year {
   gap: 5px;
+}
+
+@media screen and (max-width: 1800px) {
+  .psyhology,
+  .name,
+  .surname,
+  .main-slogan,
+  .main-sign {
+    padding-left: 15%;
+  }
+  /* Доделать блоги, методы и форму */
+}
+
+@media screen and (max-width: 1600px) {
+  .psyhology,
+  .name,
+  .surname,
+  .main-slogan,
+  .main-sign {
+    padding-left: 10%;
+  }
+
+  .psyhology {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .name,
+  .surname {
+    font-size: 54px;
+  }
+
+  .main-sign {
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .main-line-left,
+  .main-line-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .burger-menu {
+    right: 70px;
+  }
+
+  .main-title {
+    text-align: center;
+  }
+
+  .psyhology,
+  .name,
+  .surname,
+  .main-slogan {
+    padding: 0;
+  }
+
+  .psyhology {
+    font-size: 32px;
+  }
+
+  .surname {
+    text-indent: 0;
+  }
+
+  .main-slogan {
+    max-width: 450px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .psyhology,
+  .main-slogan {
+    font-size: 28px;
+  }
+
+  .name,
+  .surname {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .main-screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-sreen-left {
+    position: relative;
+    top: 100px;
+  }
+
+  .main-sreen-left img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .main-screen-right {
+    margin-top: 100px;
+  }
+
+  .main-title {
+    background-color: #fff;
+  }
 }

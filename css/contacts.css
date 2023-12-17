@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -560,6 +560,29 @@ footer {
     height: 60px;
     width: 230px;
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .burger-menu span:nth-child(2) {
+    top: calc(50% - 8px);
+  }
+
+  .burger-menu span:nth-child(3) {
+    top: calc(50% + 8px);
+  }
+
+  .logo img {
+    width: 200px;
   }
 }
 

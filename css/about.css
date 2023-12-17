@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -217,7 +217,7 @@ body {
 .biography-discription {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
 }
 
 .biography-discription p {
@@ -324,6 +324,40 @@ footer {
   .main-line-left,
   .main-line-right {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .certificates-items {
+    grid-template-columns: repeat(3, 400px);
+  }
+
+  .cetrtificates-img {
+    margin-bottom: 10px;
+    height: 300px;
+  }
+
+  .cetrtificates-img img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .certificates-items {
+    grid-template-columns: repeat(3, 350px);
+  }
+
+  .cetrtificates-img {
+    margin-bottom: 10px;
+    height: 250px;
+  }
+
+  .cetrtificates-img img {
+    height: 250px;
+  }
+
+  .certificates-text {
+    font-size: 18px;
   }
 }
 

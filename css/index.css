@@ -19,7 +19,6 @@ body {
 }
 
 .container {
-  max-width: calc(100% - 280px);
   margin: 0 auto;
 }
 
@@ -249,6 +248,7 @@ body {
   font-size: 18px;
   font-family: Open-Sans-Light;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .about-discription p {
@@ -547,8 +547,13 @@ footer {
 }
 
 @media screen and (max-width: 1800px) {
-  .container {
-    width: calc(100% - 5%);
+  .main-line-left,
+  .main-line-right,
+  .blog-line-left,
+  .blog-line-right,
+  .write-me-line-left,
+  .write-me-line-right {
+    display: none;
   }
 
   .psyhology,
@@ -557,6 +562,10 @@ footer {
   .main-slogan,
   .main-sign {
     padding-left: 15%;
+  }
+
+  .main-sign {
+    justify-content: center;
   }
 
   .methods-item-img {
@@ -575,11 +584,24 @@ footer {
     width: 90%;
   }
 
-  .write-me-line-left,
-  .write-me-line-right {
-    display: none;
-  }
   /* Доделать блоги, методы и форму */
+}
+
+@media screen and (max-width: 1700px) {
+  .about-img img {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 1620px) {
+  .about-img img {
+    width: 550px;
+  }
+
+  .about-discription {
+    font-size: 16px;
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width: 1600px) {
@@ -605,14 +627,88 @@ footer {
     justify-content: center;
     padding-left: 0;
   }
+}
 
-  .main-line-left,
-  .main-line-right {
-    display: none;
+@media screen and (max-width: 1560px) {
+  .about-title,
+  .methods-title,
+  .work-title,
+  .blog-title,
+  .contact-title {
+    font-size: 30px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .work-item-img {
+    width: 110px;
+  }
+
+  .work-item-text {
+    max-width: 220px;
+    font-size: 16px;
+  }
+
+  .difficulties,
+  .growth {
+    width: 180px;
+  }
+
+  .methods-item-img {
+    padding: 40px 120px;
+  }
+
+  .methods-item-img img {
+    width: 100px;
+  }
+
+  .methods-item-name {
+    font-size: 16px;
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(3, 400px);
+  }
+
+  .blog-item-img {
+    margin-bottom: 10px;
+  }
+
+  .blog-item-img img {
+    width: 400px;
+  }
+
+  .blog-item-title {
+    font-size: 24px;
+  }
+
+  .blog-item-preview {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 380px;
+  }
+
+  .blog-btn {
+    margin-top: 60px;
+    gap: 30px;
+  }
+
+  .blog-button {
+    width: 240px;
+  }
+
+  .write-me-img img {
+    width: 650px;
   }
 }
 
 @media screen and (max-width: 1500px) {
+  .container {
+    width: calc(100% - 200px);
+  }
+
   .burger-menu {
     right: 70px;
   }
@@ -645,7 +741,556 @@ footer {
     max-width: 450px;
     text-align: center;
   }
+
+  .blog-items {
+    grid-template-columns: repeat(3, 350px);
+  }
+
+  .blog-item-img img {
+    width: 350px;
+  }
+
+  .blog-item-preview {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .methods-item-img {
+    padding: 40px 100px;
+  }
+
+  .about-discription {
+    font-size: 16px;
+    max-width: 450px;
+  }
+
+  .work-items {
+    grid-template-columns: repeat(3, 288px);
+  }
+
+  .work-item-img {
+    width: 130px;
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(3, 300px);
+  }
+
+  .blog-item-img img {
+    width: 300px;
+  }
+
+  .blog-item-title {
+    font-size: 22px;
+  }
+
+  .blog-item-preview {
+    font-size: 14px;
+    width: 280px;
+  }
+
+  .write-me-content {
+    gap: 60px;
+  }
+
+  .write-me-img img {
+    width: 580px;
+  }
+
+  .input-name,
+  .input-phone,
+  .input-message input {
+    margin-bottom: 70px;
+    padding-bottom: 5px;
+  }
+
+  .write-me-btn {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .about-discription {
+    max-width: 550px;
+  }
+
+  .about-discription p {
+    padding-bottom: 20px;
+  }
+
+  .about-discription-link {
+    font-size: 18px;
+  }
+
+  .about-img {
+    margin-top: 20px;
+  }
+
+  .about-img img {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
+  .main-screen {
+    flex-direction: column;
+  }
+
+  .main-sreen-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .main-sreen-left img {
+    height: 27vh;
+    border-radius: 20px;
+  }
+
+  .main-screen-right {
+    margin-top: 30px;
+  }
+
+  .main-title {
+    background-color: white;
+    padding: 0;
+  }
+
+  .full-name {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .name,
+  .surname {
+    font-size: 40px;
+  }
+
+  .main-slogan {
+    padding-top: 20px;
+    font-size: 24px;
+    font-size: 24px;
+  }
+
+  .main-sign {
+    margin-top: 30px;
+  }
+
+  .main-screen-button {
+    font-size: 22px;
+    height: 60px;
+    width: 230px;
+    line-height: 60px;
+  }
+
+  .about,
+  .work,
+  .methods,
+  .blog,
+  .write-me {
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .about-discription {
+    margin: 0;
+  }
+
+  .about-discription {
+    max-width: 100%;
+  }
+
+  .about-img {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .about-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    width: calc(100% - 150px);
+  }
+
+  .methods-item-img {
+    padding: 40px 80px;
+  }
+
+  .blog-btn {
+    margin-top: 40px;
+  }
+
+  .blog-button {
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    line-height: 52px;
+  }
+
+  .write-me-img img {
+    width: 500px;
+  }
+
+  .input-name,
+  .input-phone,
+  .input-message {
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+  }
+
+  .input-name,
+  .input-phone,
+  .input-message {
+    font-size: 20px;
+  }
+
+  .write-me-btn {
+    margin-top: 10px;
+  }
+
+  .write-me-button {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .methods-items {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    row-gap: 20px;
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(2, 420px);
+    row-gap: 20px;
+  }
+
+  .blog-item-img img {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main-screen {
+    flex-direction: column;
+  }
+
+  .main-sreen-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .main-sreen-left img {
+    height: 50vh;
+  }
+
+  .main-title {
+    background-color: white;
+  }
+
+  .main-screen-right {
+    flex-grow: 1;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .methods-items {
+    display: grid;
+    grid-template-columns: repeat(2, 430px);
+    gap: 20px;
+    row-gap: 20px;
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+    row-gap: 20px;
+  }
+
+  .blog-item-img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .main-sreen-left img {
+    height: 45vh;
+  }
+
+  .main-screen-right {
+    flex-grow: 1;
+    margin-top: 20px;
+  }
+
+  .psyhology {
+    font-size: 26px;
+  }
+  .name,
+  .surname {
+    font-size: 30px;
+  }
+
+  .main-slogan {
+    font-size: 20px;
+  }
+  .main-screen-button {
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .work-items {
+    grid-template-columns: repeat(3, 250px);
+  }
+
+  .work-item-img {
+    width: 100px;
+  }
+
+  .write-me-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .write-me-img img {
+    width: 100%;
+  }
+  .write-me-form {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 180px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social-networks {
+    gap: 7px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .about,
+  .work,
+  .methods,
+  .blog,
+  .write-me {
+    margin-top: 100px;
+  }
+
+  .methods-items {
+    grid-template-columns: repeat(2, 400px);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .about-title,
+  .methods-title,
+  .work-title,
+  .blog-title,
+  .contact-title {
+    font-size: 26px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  .methods-items {
+    grid-template-columns: repeat(2, 300px);
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(2, 300px);
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .work-items {
+    grid-template-columns: repeat(3, 220px);
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+
+  .methods-items {
+    grid-template-columns: repeat(2, 280px);
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(2, 280px);
+  }
+
+  .blog-item-title {
+    font-size: 20px;
+  }
+
+  .blog-item-preview {
+    font-size: 14px;
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .burger-menu {
+    width: 40px;
+    height: 40px;
+  }
+
+  .work-items {
+    grid-template-columns: repeat(2, 220px);
+  }
+
+  .footer .container {
+    gap: 10px;
+  }
+
+  .social-tg {
+    width: 35px;
+    height: 35px;
+  }
+
+  .soocial-watsapp {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .methods-items {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .blog-items {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .blog-item-title {
+    font-size: 20px;
+  }
+
+  .blog-item-preview {
+    font-size: 14px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .burger-menu {
+    right: 50px;
+  }
+
+  .container {
+    width: calc(100% - 80px);
+  }
+
+  .about-title,
+  .methods-title,
+  .work-title,
+  .blog-title,
+  .contact-title {
+    font-size: 22px;
+    padding-right: 25px;
+  }
+
+  .work-items {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .work-item-img {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .burger-menu {
+    width: 30px;
+    height: 30px;
+  }
+
+  .burger-menu span:nth-child(2) {
+    top: calc(50% - 8px);
+  }
+
+  .burger-menu span:nth-child(3) {
+    top: calc(50% + 8px);
+  }
+
+  .logo img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+
+  .burger-menu {
+    right: 40px;
+  }
+
+  .main-sreen-left {
+    margin-top: 80px;
+  }
+
+  .main-sreen-left img {
+    height: 30vh;
+  }
+
+  .psyhology {
+    font-size: 22px;
+  }
+
+  .full-name {
+    gap: 8px;
+  }
+
+  .name,
+  .surname {
+    font-size: 26px;
+  }
+
+  .main-slogan {
+    font-size: 18px;
+  }
+
+  .main-screen-button {
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .burger-menu {
+    right: 30px;
+  }
+}
+
+@media screen and (min-width: 1480px) {
+  .container {
+    max-width: calc(100% - 280px);
+  }
 }

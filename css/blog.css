@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -583,6 +583,10 @@ footer {
   .social-networks.networks-hidden {
     display: block;
     margin-bottom: 70px;
+  }
+
+  .blog-title {
+    font-size: 46px;
   }
 
   .posts-items {

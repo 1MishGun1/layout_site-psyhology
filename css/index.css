@@ -1157,6 +1157,14 @@ footer {
     height: 40px;
   }
 
+  .burger-menu-nav {
+    justify-content: space-between;
+  }
+
+  .burger-menu-nav a {
+    font-size: 18px;
+  }
+
   .work-items {
     grid-template-columns: repeat(2, 220px);
   }

@@ -15,7 +15,7 @@ a {
 }
 
 body {
-  font-family: "Open-Sans-Regular";
+  font-family: 'Open-Sans-Regular';
 }
 
 .container {
@@ -240,7 +240,6 @@ body {
 .about-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .about-discription {

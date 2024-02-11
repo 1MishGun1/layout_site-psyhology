@@ -190,13 +190,13 @@ body {
 }
 
 .main-screen-button {
-  width: 256px;
+  width: 250px;
   height: 70px;
   border-radius: 20px;
   color: #7c655a;
   background: white;
   border: 1px solid #7c655a;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   text-align: center;
   line-height: 70px;
@@ -243,7 +243,7 @@ body {
 }
 
 .about-discription {
-  max-width: 672px;
+  max-width: 720px;
   font-size: 18px;
   font-family: Open-Sans-Light;
   margin-bottom: 10px;
@@ -266,7 +266,7 @@ body {
 }
 
 .about-img img {
-  max-width: 750px;
+  max-width: 820px;
   border-radius: 20px;
 }
 
@@ -277,7 +277,8 @@ body {
 .work-items {
   display: grid;
   grid-template-columns: repeat(4, 288px);
-  justify-content: space-between;
+  justify-content: space-evenly;
+  grid-gap: 50px;
 }
 
 .work-item {
@@ -293,13 +294,14 @@ body {
 }
 
 .work-item-img {
-  width: 130px;
+  width: 110px;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .work-item-text {
-  max-width: 300px;
-  font-size: 20px;
+  max-width: 250px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -400,10 +402,11 @@ body {
 }
 
 .blog-item-title {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .blog-item-preview {
+  font-family: "Open-Sans-Light";
   font-size: 20px;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -419,13 +422,13 @@ body {
 }
 
 .blog-button {
-  width: 296px;
+  width: 250px;
   height: 70px;
   border-radius: 20px;
   color: #7c655a;
   background: white;
   border: 1px solid #7c655a;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -464,7 +467,7 @@ body {
   border-bottom: 1px solid black;
   height: 45px;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
   outline: none;
   transition: height 0.5s;
 }
@@ -482,13 +485,13 @@ body {
 }
 
 .write-me-button {
-  width: 227px;
+  width: 230px;
   height: 70px;
   border-radius: 20px;
   color: #7c655a;
   background: white;
   border: 1px solid #7c655a;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .btn-footer {
@@ -499,7 +502,6 @@ body {
 .input-phone,
 .input-message input {
   margin-bottom: 92px;
-  padding-bottom: 10px;
 }
 
 footer {
@@ -801,7 +803,6 @@ footer {
   .input-phone,
   .input-message input {
     margin-bottom: 70px;
-    padding-bottom: 5px;
   }
 
   .write-me-btn {
@@ -948,7 +949,6 @@ footer {
   .input-phone,
   .input-message {
     margin-bottom: 40px;
-    padding-bottom: 5px;
   }
 
   .input-name,

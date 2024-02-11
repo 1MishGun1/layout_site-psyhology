@@ -151,7 +151,7 @@ body {
 
 .contacts-title {
   font-family: PT-Serif-Regular;
-  font-size: 64px;
+  font-size: 55px;
   color: #1f1f1f;
   margin-top: 170px;
   margin-bottom: 90px;
@@ -193,13 +193,13 @@ body {
 }
 
 .main-screen-button {
-  width: 256px;
+  width: 250px;
   height: 70px;
   border-radius: 20px;
   color: #1f1f1f;
   background: transparent;
   border: 1px solid #1f1f1f;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -245,9 +245,8 @@ body {
 .contacts-input input {
   border: none;
   border-bottom: 1px solid #1f1f1f;
-  font-size: 28px;
+  font-size: 20px;
   outline: none;
-  padding-bottom: 10px;
 }
 
 .input-name,
@@ -284,9 +283,9 @@ body {
 
 .contact-button {
   border: 1px solid #7c655a;
-  width: 270px;
+  width: 250px;
   border-radius: 20px;
-  font-size: 26px;
+  font-size: 20px;
   background-color: white;
   color: #7c655a;
 }
@@ -450,7 +449,6 @@ footer {
 @media screen and (max-width: 850px) {
   .contacts-input input {
     font-size: 24px;
-    padding-bottom: 0;
   }
 
   .input-name,

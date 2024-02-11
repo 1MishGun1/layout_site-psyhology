@@ -144,7 +144,7 @@ body {
 
 .about-title {
   font-family: PT-Serif-Regular;
-  font-size: 64px;
+  font-size: 55px;
   color: white;
   margin-top: 110px;
   margin-bottom: 50px;
@@ -154,7 +154,7 @@ body {
 .about-qualification,
 .about-work,
 .about-format {
-  font-size: 26px;
+  font-size: 22px;
   max-width: 682px;
   color: white;
   margin-bottom: 40px;

@@ -183,10 +183,11 @@ body {
 
 .post-img img {
   width: 1400px;
+  border-radius: 20px;
 }
 
 .post-text-all {
-  width: 830px;
+  width: 900px;
   margin: 0 auto;
   text-align: justify;
 }

@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  font-family: "Open-Sans-Regular";
+  font-family: 'Open-Sans-Regular';
 }
 
 .container {
@@ -164,7 +164,7 @@ body {
   display: flex;
   align-items: center;
   font-family: PT-Serif-Regular;
-  font-size: 55px;
+  font-size: 45px;
   color: white;
   margin-top: 300px;
 }
@@ -172,7 +172,7 @@ body {
 .main-sign {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   margin-top: 120px;
 }
 
@@ -183,10 +183,11 @@ body {
   color: white;
   background: transparent;
   border: 1px solid white;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   text-align: center;
   line-height: 70px;
+  letter-spacing: 2px;
 }
 
 .main-screen-button:hover {
@@ -217,8 +218,8 @@ body {
 .posts-items {
   overflow-x: auto;
   display: grid;
-  grid-template-columns: repeat(3, 480px);
-  gap: 18px;
+  grid-template-columns: repeat(3, 510px);
+  gap: 30px;
   justify-content: space-between;
   overflow: hidden;
   padding: 12px 0;
@@ -238,7 +239,7 @@ body {
 
 .posts-item-img img {
   border-radius: 15px 15px 0 0;
-  width: 480px;
+  width: 510px;
   padding-bottom: 20px;
 }
 
@@ -264,7 +265,7 @@ body {
 }
 
 .posts-item-discription {
-  font-family: "Open-Sans-Light";
+  font-family: 'Open-Sans-Light';
   font-size: 20px;
   width: 455px;
   font-weight: 400;

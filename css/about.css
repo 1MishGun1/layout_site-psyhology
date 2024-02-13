@@ -609,7 +609,11 @@ footer {
 
 @media screen and (max-width: 430px) {
   .main-screen {
-    height: 60vh;
+    height: 70vh;
+  }
+
+  .main-sign {
+    margin-bottom: 50px;
   }
 
   .about-title {

@@ -537,7 +537,7 @@ footer {
   .about-work,
   .about-format {
     padding-bottom: 30px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .main-sign {
@@ -608,23 +608,32 @@ footer {
 }
 
 @media screen and (max-width: 430px) {
+  .main-screen {
+    height: 60vh;
+  }
+
   .about-title {
     margin-top: 50px;
   }
 
   .main-screen-button {
-    height: 60px;
-    width: 240px;
-    font-size: 22px;
-    line-height: 60px;
+    height: 40px;
+    width: 200px;
+    font-size: 16px;
+    line-height: 40px;
   }
 
   .biography-title,
   .certificates-title {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 15px;
     margin-left: 15px;
     padding-right: 30px;
+    padding-bottom: 5px;
+  }
+
+  .biography-discription p {
+    font-size: 14px;
   }
 
   .cetrtificates-img img {

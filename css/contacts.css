@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -242,18 +242,20 @@ body {
   flex-direction: column;
 }
 
+.input-message,
 .contacts-input input {
   border: none;
   border-bottom: 1px solid #1f1f1f;
   font-size: 20px;
   outline: none;
+  font-family: Open-Sans-Regular;
 }
 
 .input-name,
 .input-phone,
 .input-message {
   height: 50px;
-  transition: height 0.5s;
+  transition: all 0.5s;
 }
 
 .input-name,
@@ -263,13 +265,13 @@ body {
 
 .input-name:focus,
 .input-phone:focus {
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #7c655a;
   height: 70px;
 }
 
 .input-message:focus {
   height: 200px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #7c655a;
   padding-bottom: 30px;
 }
 

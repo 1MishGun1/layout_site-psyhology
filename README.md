@@ -13,4 +13,4 @@ The website is built using the following technologies:
 - JavaScript: for interactive elements and dynamic functionality
 
 ## 📅 Last Updated
-This README file was last updated on January 1, 2024.
+This README file was last updated on Septembder 15, 2024.

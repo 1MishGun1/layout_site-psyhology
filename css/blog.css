@@ -21,7 +21,7 @@ a {
 }
 
 body {
-  font-family: 'Open-Sans-Regular';
+  font-family: "Open-Sans-Regular";
 }
 
 .container {
@@ -164,7 +164,7 @@ body {
   display: flex;
   align-items: center;
   font-family: PT-Serif-Regular;
-  font-size: 45px;
+  font-size: 54px;
   color: white;
   margin-top: 300px;
 }
@@ -265,7 +265,7 @@ body {
 }
 
 .posts-item-discription {
-  font-family: 'Open-Sans-Light';
+  font-family: "Open-Sans-Light";
   font-size: 20px;
   width: 455px;
   font-weight: 400;
